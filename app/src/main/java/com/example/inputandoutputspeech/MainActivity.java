@@ -121,13 +121,12 @@ public class MainActivity extends AppCompatActivity {
     protected void onDestroy() {
         // TODO Auto-generated method stub
         super.onDestroy();
-        if(ttsobject != null){
+        if(ttsobject != null) {
 
             ttsobject.stop();
             ttsobject.shutdown();
 
         }
-
     }
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
