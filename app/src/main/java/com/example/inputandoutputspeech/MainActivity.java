@@ -125,7 +125,6 @@ public class MainActivity extends AppCompatActivity {
 
             ttsobject.stop();
             ttsobject.shutdown();
-
         }
     }
     @Override
